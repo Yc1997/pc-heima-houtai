@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Message, MessageBox, Form, FormItem, Input, Container, Header, Aside, Main, Menu, MenuItem, MenuItemGroup, Submenu, Popover, Avatar, Dropdown, DropdownMenu, DropdownItem, Breadcrumb, BreadcrumbItem, Select, Option, Radio, RadioGroup, Col, Row, Checkbox, CheckboxGroup, DatePicker, TimePicker, Switch, Table, TableColumn, Pagination, Card, Tag, Loading } from 'element-ui'
+import { Button, Message, MessageBox, Form, FormItem, Input, Container, Header, Aside, Main, Menu, MenuItem, MenuItemGroup, Submenu, Popover, Avatar, Dropdown, DropdownMenu, DropdownItem, Breadcrumb, BreadcrumbItem, Select, Option, Radio, RadioGroup, Col, Row, Checkbox, CheckboxGroup, DatePicker, TimePicker, Switch, Table, TableColumn, Pagination, Card, Tag, Loading, RadioButton, Image, Dialog, Upload } from 'element-ui'
 
 Vue.use(Button)
 Vue.use(Form)
@@ -37,6 +37,10 @@ Vue.use(Pagination)
 Vue.use(Card)
 Vue.use(Tag)
 Vue.use(Loading)
+Vue.use(RadioButton)
+Vue.use(Image)
+Vue.use(Dialog)
+Vue.use(Upload)
 // Vue.use(MessageBox)
 
 // Vue.prototype.$loading = Loading.service;

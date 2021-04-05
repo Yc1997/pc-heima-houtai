@@ -108,7 +108,11 @@
           </el-table-column>
           <el-table-column label="操作" align="center">
             <template slot-scope="scope">
-              <el-button type="primary" circle>
+              <el-button
+                type="primary"
+                circle
+                @click="$router.push('/layout/publish?id=' + scope.row.id)"
+              >
                 <i class="el-icon-edit"></i>
               </el-button>
               <el-button
@@ -189,7 +193,7 @@ export default {
         begin_pubdate: this.selectTime[0] || null,
         end_pubdate: this.selectTime[1] || null,
       });
-      console.log(res);
+      // console.log(res);
       if (res.message === "OK") {
         this.total = res.data.total_count;
         this.resultList = res.data.results;

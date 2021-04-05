@@ -11,6 +11,9 @@ const routes = [
     path: '/layout', name: 'layout', component: () => import('@/views/layout'), meta: { isLogin: true }, children: [
       { path: 'welcome', name: 'welcome', component: () => import('@/components/Welcome'), meta: { isLogin: true } },
       { path: 'content', name: 'content', component: () => import('@/views/content'), meta: { isLogin: true } },
+      { path: 'publish', name: 'publish', component: () => import('@/views/publish'), meta: { isLogin: true } },
+      { path: 'document', name: 'document', component: () => import('@/views/document'), meta: { isLogin: true } },
+      { path: 'comment', name: 'comment', component: () => import('@/views/comment'), meta: { isLogin: true } },
     ]
   },
   { path: '*', component: () => import('@/components/NotFound') }

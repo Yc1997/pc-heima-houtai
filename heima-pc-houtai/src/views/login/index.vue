@@ -107,7 +107,6 @@ export default {
 
 <style lang='less' scoped>
 .login-content {
-  width: 100%;
   height: 100vh;
   background: url("../../assets/img/login_bg.jpg") no-repeat;
   background-size: cover;

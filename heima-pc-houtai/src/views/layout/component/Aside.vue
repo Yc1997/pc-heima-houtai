@@ -22,7 +22,7 @@
       <i class="el-icon-document"></i>
       <span slot="title">素材管理</span>
     </el-menu-item>
-    <el-menu-item index="/layout/add" :disabled="isDisabled">
+    <el-menu-item index="/layout/publish" :disabled="isDisabled">
       <i class="el-icon-document-add"></i>
       <span slot="title">发布文章</span>
     </el-menu-item>
