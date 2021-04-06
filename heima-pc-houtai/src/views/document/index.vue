@@ -77,11 +77,10 @@
       </el-upload>
     </el-dialog>
   </el-card>
-</template>
+</template> 
 <script>
 import Breadcrumb from "@/components/Breadcrumb";
 import { getUserImage, userCollectImage, userDeleteImage } from "@/api/upload";
-// import { collectImageData } from "./index";
 export default {
   name: "document",
   components: {
