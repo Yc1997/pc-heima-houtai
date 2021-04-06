@@ -77,7 +77,7 @@ export default {
   methods: {
     getArticleData(page, per_page) {
       getArticle({ page, per_page, response_type: "comment" }).then((res) => {
-        console.log(res);
+        // console.log(res);
         this.commentData = res.data.data.results;
         this.total = res.data.data.total_count;
       });
